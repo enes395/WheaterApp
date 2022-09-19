@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		9E70DA8F28D8799C00024F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70DA8E28D8799C00024F56 /* AppDelegate.swift */; };
 		9E70DA9128D8799C00024F56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70DA9028D8799C00024F56 /* SceneDelegate.swift */; };
-		9E70DA9328D8799C00024F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70DA9228D8799C00024F56 /* ViewController.swift */; };
 		9E70DA9628D8799C00024F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E70DA9428D8799C00024F56 /* Main.storyboard */; };
 		9E70DA9828D8799E00024F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E70DA9728D8799E00024F56 /* Assets.xcassets */; };
 		9E70DA9B28D8799E00024F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E70DA9928D8799E00024F56 /* LaunchScreen.storyboard */; };
+		9E70DAA828D87E9100024F56 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70DAA628D87E9100024F56 /* WeatherTableViewCell.swift */; };
+		9E70DAA928D87E9100024F56 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E70DAA728D87E9100024F56 /* WeatherTableViewCell.xib */; };
+		9E70DAAD28D87ED600024F56 /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70DAAB28D87ED600024F56 /* HourlyTableViewCell.swift */; };
+		9E70DAAE28D87ED600024F56 /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E70DAAC28D87ED600024F56 /* HourlyTableViewCell.xib */; };
+		9EACF67228D8D4640079BEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EACF67128D8D4640079BEE7 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E70DA8B28D8799C00024F56 /* WheaterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheaterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E70DA8E28D8799C00024F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E70DA9028D8799C00024F56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E70DA9228D8799C00024F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E70DA9528D8799C00024F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E70DA9728D8799E00024F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E70DA9A28D8799E00024F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E70DA9C28D8799E00024F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E70DAA628D87E9100024F56 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		9E70DAA728D87E9100024F56 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		9E70DAAB28D87ED600024F56 /* HourlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTableViewCell.swift; sourceTree = "<group>"; };
+		9E70DAAC28D87ED600024F56 /* HourlyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyTableViewCell.xib; sourceTree = "<group>"; };
+		9EACF67128D8D4640079BEE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		9E70DA8D28D8799C00024F56 /* WheaterApp */ = {
 			isa = PBXGroup;
 			children = (
+				9EACF67128D8D4640079BEE7 /* ViewController.swift */,
+				9E70DAAA28D87EB900024F56 /* HourlyTableViewCell */,
+				9E70DAA228D87DC900024F56 /* WeatherCell */,
 				9E70DA8E28D8799C00024F56 /* AppDelegate.swift */,
 				9E70DA9028D8799C00024F56 /* SceneDelegate.swift */,
-				9E70DA9228D8799C00024F56 /* ViewController.swift */,
 				9E70DA9428D8799C00024F56 /* Main.storyboard */,
 				9E70DA9728D8799E00024F56 /* Assets.xcassets */,
 				9E70DA9928D8799E00024F56 /* LaunchScreen.storyboard */,
 				9E70DA9C28D8799E00024F56 /* Info.plist */,
 			);
 			path = WheaterApp;
+			sourceTree = "<group>";
+		};
+		9E70DAA228D87DC900024F56 /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E70DAA628D87E9100024F56 /* WeatherTableViewCell.swift */,
+				9E70DAA728D87E9100024F56 /* WeatherTableViewCell.xib */,
+			);
+			path = WeatherCell;
+			sourceTree = "<group>";
+		};
+		9E70DAAA28D87EB900024F56 /* HourlyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E70DAAB28D87ED600024F56 /* HourlyTableViewCell.swift */,
+				9E70DAAC28D87ED600024F56 /* HourlyTableViewCell.xib */,
+			);
+			path = HourlyTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E70DAA928D87E9100024F56 /* WeatherTableViewCell.xib in Resources */,
+				9E70DAAE28D87ED600024F56 /* HourlyTableViewCell.xib in Resources */,
 				9E70DA9B28D8799E00024F56 /* LaunchScreen.storyboard in Resources */,
 				9E70DA9828D8799E00024F56 /* Assets.xcassets in Resources */,
 				9E70DA9628D8799C00024F56 /* Main.storyboard in Resources */,
@@ -138,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E70DA9328D8799C00024F56 /* ViewController.swift in Sources */,
+				9EACF67228D8D4640079BEE7 /* ViewController.swift in Sources */,
+				9E70DAA828D87E9100024F56 /* WeatherTableViewCell.swift in Sources */,
+				9E70DAAD28D87ED600024F56 /* HourlyTableViewCell.swift in Sources */,
 				9E70DA8F28D8799C00024F56 /* AppDelegate.swift in Sources */,
 				9E70DA9128D8799C00024F56 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +322,7 @@
 				DEVELOPMENT_TEAM = M2NC9HQ839;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WheaterApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "please allow location to see local wather. ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +351,7 @@
 				DEVELOPMENT_TEAM = M2NC9HQ839;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WheaterApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "please allow location to see local wather. ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
